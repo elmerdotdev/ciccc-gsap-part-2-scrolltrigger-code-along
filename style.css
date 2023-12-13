@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+}
+
+.container {
+  margin: 100vh auto;
+  overflow: hidden;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  margin: 10px auto;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.purple {
+  background-color: purple;
+}
+
+
+
+/* NAME */
+
+.wrapper {
+  overflow: hidden;
+}
+
+.sentence-1,
+.sentence-2,
+.sentence-3,
+.sentence-4 {
+  display: flex;
+  justify-content: center;
+  gap: .5rem;
+  margin: 100vh auto;
+}
+
+.sentence-1 span,
+.sentence-3 span {
+  padding: 2rem;
+  background-color: blue;
+  color: white;
+  font-size: 3rem;
+}
+
+.sentence-2 span {
+  padding: 1rem;
+  background-color: black;
+  color: white;
+  font-family: 'Brush Script MT', sans-serif;
+  font-size: 5rem;
+}
+
+.sentence-2 span:last-child {
+  background-color: #333;
+}
+
+.sentence-4 {
+  flex-direction: column;
+  align-items: center;
+}
+
+.sentence-4 span {
+  display: inline-block;
+  padding: 2rem;
+  font-family: monospace;
+  font-size: 6rem;
+}
+
+.sentence-4 .title {
+  padding: 1rem;
+  background-color: #333;
+  color: white;
+  font-family: monospace;
+  font-size: 2rem;
+}
