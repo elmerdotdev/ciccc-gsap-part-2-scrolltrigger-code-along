@@ -45,10 +45,6 @@ body {
   overflow: hidden;
 }
 
-.sentence-1 {
-  margin-top: 100vh;
-}
-
 .sentence-1,
 .sentence-2,
 .sentence-3,
@@ -58,6 +54,19 @@ body {
   align-items: center;
   gap: .5rem;
   min-height: 100vh;
+}
+
+.sentence-1 {
+  margin-top: 100vh;
+  background-color: red;
+}
+
+.sentence-2 {
+  background-color: green;
+}
+
+.sentence-3 {
+  background-color: blue;
 }
 
 .sentence-1 span,
