@@ -45,14 +45,19 @@ body {
   overflow: hidden;
 }
 
+.sentence-1 {
+  margin-top: 100vh;
+}
+
 .sentence-1,
 .sentence-2,
 .sentence-3,
 .sentence-4 {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: .5rem;
-  margin: 100vh auto;
+  min-height: 100vh;
 }
 
 .sentence-1 span,

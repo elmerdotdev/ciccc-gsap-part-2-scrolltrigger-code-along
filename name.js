@@ -2,8 +2,8 @@
 const timeline1 = gsap.timeline({
   scrollTrigger: {
     trigger: '.sentence-1',
-    start: 'top 40%',
-    end: 'bottom',
+    start: 'top 0',
+    end: 'bottom center',
     scrub: true,
     // markers: true,
     pin: true
@@ -20,8 +20,8 @@ timeline1
 const timeline2 = gsap.timeline({
   scrollTrigger: {
     trigger: '.sentence-2',
-    start: 'top 40%',
-    end: 'bottom',
+    start: 'top 0',
+    end: 'bottom center',
     scrub: true,
     // markers: true,
     pin: true
@@ -36,8 +36,8 @@ timeline2
 const timeline3 = gsap.timeline({
   scrollTrigger: {
     trigger: '.sentence-3',
-    start: 'top 40%',
-    end: 'bottom',
+    start: 'top 0',
+    end: 'bottom center',
     scrub: true,
     // markers: true,
     pin: true
@@ -53,10 +53,10 @@ timeline3
 const timeline4 = gsap.timeline({
   scrollTrigger: {
     trigger: '.sentence-4',
-    start: 'top 30%',
-    end: 'bottom',
+    start: 'top 0',
+    end: 'bottom center',
     scrub: true,
-    // markers: true,
+    markers: true,
     pin: true
   }
 })
